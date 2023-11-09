@@ -1,0 +1,193 @@
+header .navbar a.active{
+    color: #0e48fe;
+  }
+  .featured {
+      margin-top: 10rem;
+  }
+  .featured .row .content .perfil-usuario-form{
+      display: flex;
+      position: relative;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      border-radius: 15px;
+      width: 100%;
+      opacity: 1;
+      transition: 0.8s ease-in;
+  }
+  /* file */
+  .image-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .image-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .boton-avatar{
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      height: 45px;
+      width: 45px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+      align-items: center;
+        
+  }
+  label.label input[type="file"] {
+      position: absolute;
+      top: -1000px;
+    }
+    .label {
+      width: 70%;
+      min-height: 35rem;
+      cursor: pointer;
+      border: 1px solid #cccccc;
+      border-radius: 50%;
+      padding: 5px 15px;
+      margin: 5px;
+      background: #dddddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .label:hover {
+      background: #5cbd95;
+    }
+    .label:active {
+      background: #9fa1a0;
+    }
+    .label:invalid + span {
+      color: #000000;
+    }
+    .label:valid + span {
+      color: #ffffff;
+    }
+    .label span i{
+      font-size: 3rem;
+    }
+  .lista-datos {
+      width: 50%;
+      list-style: none;
+  }
+  .person-name label,
+  .person-gender label,
+  .person-age label,
+  .person-email label,
+  .person-location label,
+  .person-country label,
+  .person-user label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  .person-name input,
+  .person-age input,
+  .person-email input,
+  .person-location input,
+  .person-country input,
+  .person-user input {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      height: 38px;
+      line-height: 38px;
+      padding-left: 5px;
+  }
+  .featured .row .content .perfil-usuario-form .product-categories .radio-container {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+  }
+  .radio-container {
+      background: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      display: inline-block;
+      padding: 5px;
+  }
+  .radio-container label {
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      display: inline-block;
+      height: 26px;
+      line-height: 26px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      transition: 0.2s all ease-in-out;
+      width: 80px;
+  }
+  .radio-container input[type="radio"] {
+      display: none;
+  }
+  .radio-container input[type="radio"]:checked + label {
+      background: #5955ff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .button-setting {
+      background-color: #5955ff;
+      border-radius: 4px;
+      border: 0;
+      box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inherit;
+      font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      margin: 0;
+      min-height: 56px;
+      min-width: 120px;
+      padding: 16px 20px;
+      position: relative;
+      text-align: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    }
+    
+    .button-setting:hover {
+      background-color: #065dd8;
+      transform: translateY(-2px);
+    }
+    .update{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    /* table */
+  .image-container-table{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+  }
+  .image-container-table .small-image{
+      width: 10%;
+  }
+  .image-container-table .small-image img{
+      width: 100%;
+      padding: 1rem;
+      border: .1rem solid rgba(0, 0, 0, .1);
+      cursor: pointer;
+  }
+  @media (max-width: 768px) {
+      .featured .row .content .perfil-usuario-form {
+          flex-wrap: wrap;
+      }
+      .label {
+        width: 40%;
+        min-height: 10rem;
+        
+      }
+    }

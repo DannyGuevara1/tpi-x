@@ -1,0 +1,10 @@
+.featured h1{
+    margin-top: 5rem;
+}
+header .navbar a.active{
+    color: #0e48fe;
+}
+.content .btn:hover{
+    background-color: red;
+    color: white;
+}
